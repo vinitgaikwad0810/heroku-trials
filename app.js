@@ -164,7 +164,7 @@ var handle_get = function (req, res) {
     ts = new Date().getTime()
     console.log( ts )
     state = "no-coin" ;
-
+    console.log("Vinit");
     page( req, res, state, ts ) ;
 }
 
